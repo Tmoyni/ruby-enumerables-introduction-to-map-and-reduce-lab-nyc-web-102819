@@ -60,7 +60,9 @@ def reduce_to_all_true(source_array)
    end
 end
 
-def reduce_to_any_true(source_array)
-  counter = 0 
+counter = 0 
   while counter < source_array.length do
-    retrn False
+    return TRUE
+    counter += 1
+   end
+end
