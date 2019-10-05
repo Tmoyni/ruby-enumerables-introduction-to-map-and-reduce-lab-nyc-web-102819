@@ -61,13 +61,4 @@ def reduce_to_all_true(source_array)
 end
 
 def reduce_to_any_true(source_array)
-  i = 0 # set up a i for the enumeration source array
-  while i < source_array.length do # a loop for each #array element
-    # Stop enumerating and return true if any passenger #is coughing or sneezing
-    if source_array[i] 
-      return TRUE 
-    end
-      i += 1
-  end
-  return FALSE
-end
+  counter = 
